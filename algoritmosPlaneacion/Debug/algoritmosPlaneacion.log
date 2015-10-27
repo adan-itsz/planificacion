@@ -1,0 +1,19 @@
+﻿Compilación iniciada a las 26/10/2015 07:15:21 p.m..
+     1>Proyecto "C:\Users\adan\Documents\Visual Studio 2013\Projects\algoritmosPlaneacion\algoritmosPlaneacion\algoritmosPlaneacion.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\algoritmosPlaneacion.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt algoritmosPlaneacion.cpp
+         algoritmosPlaneacion.cpp
+     1>c:\users\adan\documents\visual studio 2013\projects\algoritmosplaneacion\algoritmosplaneacion\algoritmosplaneacion.cpp(21): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'listaGeneral' cuando no hay ninguna variable declarada
+     1>c:\users\adan\documents\visual studio 2013\projects\algoritmosplaneacion\algoritmosplaneacion\algoritmosplaneacion.cpp(28): warning C4091: 'typedef ' : se ha omitido a la izquierda de 'listaPrioridad' cuando no hay ninguna variable declarada
+     1>c:\users\adan\documents\visual studio 2013\projects\algoritmosplaneacion\algoritmosplaneacion\algoritmosplaneacion.cpp(169): warning C4244: '=' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\adan\documents\visual studio 2013\projects\algoritmosplaneacion\algoritmosplaneacion\algoritmosplaneacion.cpp(171): warning C4244: '+=' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\adan\documents\visual studio 2013\projects\algoritmosplaneacion\algoritmosplaneacion\algoritmosplaneacion.cpp(148): warning C4101: 'aux' : variable local sin referencia
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\adan\Documents\Visual Studio 2013\Projects\algoritmosPlaneacion\Debug\algoritmosPlaneacion.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\adan\Documents\Visual Studio 2013\Projects\algoritmosPlaneacion\Debug\algoritmosPlaneacion.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\adan\Documents\Visual Studio 2013\Projects\algoritmosPlaneacion\Debug\algoritmosPlaneacion.lib" /MACHINE:X86 Debug\algoritmosPlaneacion.obj
+         Debug\stdafx.obj
+         algoritmosPlaneacion.vcxproj -> C:\Users\adan\Documents\Visual Studio 2013\Projects\algoritmosPlaneacion\Debug\algoritmosPlaneacion.exe
+     1>Compilación del proyecto terminada "C:\Users\adan\Documents\Visual Studio 2013\Projects\algoritmosPlaneacion\algoritmosPlaneacion\algoritmosPlaneacion.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.20
