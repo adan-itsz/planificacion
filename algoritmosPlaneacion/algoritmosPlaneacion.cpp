@@ -156,7 +156,6 @@ void prioridad(list<listaPrioridad>l)
 	quantum = acum / prioridad.size();
 	acum = 0;
 	for (list<listaPrioridad>::iterator i = prioridad.begin(); i != prioridad.end(); i++){
-		//prioridad.sort();
 		if (quantum >= i->tiempo){
 			
 			acum += i->tiempo;
@@ -167,11 +166,12 @@ void prioridad(list<listaPrioridad>l)
 		}
 		else{
 			i->tiempo = i->tiempo - quantum;
-			i->prioridad += i->prioridad;
+			aux.id = i->id;
+			aux.prioridad = i->prioridad;
+			aux.tiempo = i->tiempo;
+			prioridad.push_back(aux);
 			acum += quantum;
 			prioridad.sort();
-			
-			
 			
 		}
 	}
